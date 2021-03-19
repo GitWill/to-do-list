@@ -1,9 +1,14 @@
 import React from 'react';
 
-const ToDoList = () => {
+// import components
+import Todo from './todo'
+
+const ToDoList = (todos) => {
+    // console.log(todos);
     return(
         <div className="todo-container">
-            <ul className="todo-list"></ul>
+            <ul className="todo-list">
+            </ul>
         </div>
     );
 }
